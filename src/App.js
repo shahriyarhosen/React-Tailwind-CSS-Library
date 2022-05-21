@@ -1,10 +1,9 @@
-import "./App.css";
-import Login01 from "./Pages/Authentication/Login01";
-import Login02 from "./Pages/Authentication/Login02";
-import Login03 from "./Pages/Authentication/Login03";
-import Login04 from "./Pages/Authentication/Login04";
-import Login05 from "./Pages/Authentication/Login05";
-import Login06 from "./Pages/Authentication/Login06";
+import Login01 from "./Pages/Authentication/Login/Login01";
+import Login02 from "./Pages/Authentication/Login/Login02";
+import Login03 from "./Pages/Authentication/Login/Login03";
+import Login04 from "./Pages/Authentication/Login/Login04";
+import Login05 from "./Pages/Authentication/Login/Login05";
+import Login06 from "./Pages/Authentication/Login/Login06";
 import SignUp01 from "./Pages/Authentication/SignUp/SignUp01";
 import Footer01 from "./Pages/Shared/Footer/Footer01";
 import Footer02 from "./Pages/Shared/Footer/Footer02";
@@ -62,7 +61,7 @@ function App() {
       </section>
 
       <section>
-      <h1 className="text-center my-10 text-2xl font-bold text-green-600">
+        <h1 className="text-center my-10 text-2xl font-bold text-green-600">
           Sign Up Page
         </h1>
 

@@ -229,12 +229,12 @@ const Login01 = () => {
                 Sign up
               </Link>
             </div>
-            <div class="divider">OR</div>
-            <button class="btn btn-outline btn-info w-full text-xl font-semibold">
+            <div className="divider">OR</div>
+            <button className="btn btn-outline btn-info w-full text-xl font-semibold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 488 512"
-                class="w-7 h-7"
+                className="w-7 h-7"
                 style={{ color: "#ea4335" }}
               >
                 <path

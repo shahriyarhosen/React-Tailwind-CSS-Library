@@ -1,11 +1,11 @@
-import React  from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Login05 = () => {
   return (
     <div className="h-full bg-gradient-to-tl from-green-400 to-indigo-700 w-full py-16 px-4">
       <div className="flex flex-col items-center justify-center">
-          {/* Logo */}
+        {/* Logo */}
         <svg
           width={188}
           height={74}
@@ -33,7 +33,8 @@ const Login05 = () => {
           </p>
           <p className="text-sm mt-4 font-medium leading-none text-gray-500">
             Dont have account?{" "}
-            <Link to="/signup"
+            <Link
+              to="/signup"
               tabIndex={0}
               aria-label="Sign up here"
               className="text-sm font-medium leading-none underline text-gray-800 cursor-pointer"
@@ -134,9 +135,9 @@ const Login05 = () => {
             />
           </div>
           <div className="mt-6  w-full">
-            <lable className="text-sm font-medium leading-none text-gray-800">
+            <label className="text-sm font-medium leading-none text-gray-800">
               Password
-            </lable>
+            </label>
             <div className="relative flex items-center justify-center">
               <input
                 aria-label="enter Password"

@@ -168,7 +168,6 @@ const Footer04 = () => {
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
               "
-                  id="exampleFormControlInput1"
                   placeholder="Email address"
                 />
               </div>
