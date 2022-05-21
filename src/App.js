@@ -1,5 +1,6 @@
 import "./App.css";
 import Login01 from "./Pages/Authentication/Login01";
+import Login02 from "./Pages/Authentication/Login02";
 import Footer01 from "./Pages/Shared/Footer/Footer01";
 import Footer02 from "./Pages/Shared/Footer/Footer02";
 import Footer03 from "./Pages/Shared/Footer/Footer03";
@@ -20,7 +21,14 @@ function App() {
           </h1>
           <p className="text-xl text-blue-500">1. Login - 01</p>
         </div>
+        <h2 className="text-2xl text-blue-900 font-bold text-center my-10">
+          1. Login - 01
+        </h2>
         <Login01></Login01>
+        <h2 className="text-2xl text-blue-900 font-bold text-center mt-10 ">
+          2. Login - 02
+        </h2>
+        <Login02></Login02>
       </section>
 
       <footer>
