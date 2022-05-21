@@ -2,6 +2,7 @@ import "./App.css";
 import Login01 from "./Pages/Authentication/Login01";
 import Login02 from "./Pages/Authentication/Login02";
 import Login03 from "./Pages/Authentication/Login03";
+import Login04 from "./Pages/Authentication/Login04";
 import Footer01 from "./Pages/Shared/Footer/Footer01";
 import Footer02 from "./Pages/Shared/Footer/Footer02";
 import Footer03 from "./Pages/Shared/Footer/Footer03";
@@ -21,6 +22,7 @@ function App() {
             Top Login Page List:
           </h1>
           <p className="text-xl text-blue-500">1. Login - 01</p>
+          <p className="text-xl text-blue-500">1. Login - 03</p>
         </div>
         <h2 className="text-2xl text-blue-900 font-bold text-center my-10">
           1. Login - 01
@@ -34,6 +36,10 @@ function App() {
           3. Login - 03
         </h2>
         <Login03></Login03>
+        <h2 className="text-2xl text-blue-900 font-bold text-center my-10 ">
+          4. Login - 04
+        </h2>
+        <Login04></Login04>
       </section>
 
       <footer>
