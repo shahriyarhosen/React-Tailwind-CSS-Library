@@ -15,12 +15,12 @@ function App() {
         <p className="text-xl text-blue-500">2. Footer - 04</p>
         <p className="text-xl text-blue-500">2. Footer-img - 05</p>
       </section>
-      {/* <Footer01></Footer01> */}
-      {/* <Footer02></Footer02> */}
+      <Footer01></Footer01>
+      <Footer02></Footer02>
       <Footer03></Footer03>
-      {/* <Footer04></Footer04> */}
-      {/* <Footer05></Footer05> */}
-      {/* <Footer06></Footer06> */}
+      <Footer04></Footer04>
+      <Footer05></Footer05>
+      <Footer06></Footer06>
     </div>
   );
 }
