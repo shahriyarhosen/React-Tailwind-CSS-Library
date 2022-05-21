@@ -4,6 +4,7 @@ import Footer02 from "./Pages/Shared/Footer/Footer02";
 import Footer03 from "./Pages/Shared/Footer/Footer03";
 import Footer04 from "./Pages/Shared/Footer/Footer04";
 import Footer05 from "./Pages/Shared/Footer/Footer05";
+import Footer06 from "./Pages/Shared/Footer/Footer06";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       </section>
       {/* <Footer01></Footer01> */}
       {/* <Footer02></Footer02> */}
-      {/* <Footer03></Footer03> */}
+      <Footer03></Footer03>
       {/* <Footer04></Footer04> */}
-      <Footer05></Footer05>
+      {/* <Footer05></Footer05> */}
+      {/* <Footer06></Footer06> */}
     </div>
   );
 }
