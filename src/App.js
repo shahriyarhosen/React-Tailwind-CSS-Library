@@ -4,6 +4,7 @@ import Login02 from "./Pages/Authentication/Login02";
 import Login03 from "./Pages/Authentication/Login03";
 import Login04 from "./Pages/Authentication/Login04";
 import Login05 from "./Pages/Authentication/Login05";
+import Login06 from "./Pages/Authentication/Login06";
 import Footer01 from "./Pages/Shared/Footer/Footer01";
 import Footer02 from "./Pages/Shared/Footer/Footer02";
 import Footer03 from "./Pages/Shared/Footer/Footer03";
@@ -25,7 +26,8 @@ function App() {
             Top Login Page List:
           </h1>
           <p className="text-xl text-blue-500">1. Login - 01</p>
-          <p className="text-xl text-blue-500">1. Login - 03</p>
+          <p className="text-xl text-blue-500">2. Login - 03</p>
+          <p className="text-xl text-blue-500">3. Login - 05</p>
         </div>
 
         <h2 className="text-2xl text-blue-900 font-bold text-center my-10">
@@ -52,6 +54,11 @@ function App() {
           5. Login - 05
         </h2>
         <Login05></Login05>
+
+        <h2 className="text-2xl text-blue-900 font-bold text-center my-10 ">
+          6. Login - 06
+        </h2>
+        <Login06></Login06>
 
       </section>
 

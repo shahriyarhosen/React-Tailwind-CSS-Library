@@ -74,7 +74,7 @@ const Login03 = () => {
                     </form>
                     <div class="divider">OR</div>
                     <button
-                      className="btn w-full border-0"
+                      className="btn w-full border-0 mb-5"
                       style={{
                         background: `linear-gradient(
                             to right,
