@@ -4,76 +4,6 @@ import { Link } from "react-router-dom";
 const Login01 = () => {
   return (
     <div className="lg:flex">
-      <div className="lg:w-1/2 xl:w-full 2xl:mx-32 lg:my-auto xl:max-w-screen-sm">
-        <div className="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
-          <div className="cursor-pointer flex items-center">
-            <div>logo</div>
-            <div className="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">
-              blockify
-            </div>
-          </div>
-        </div>
-        <div className="mt-10 px-12 sm:px-24 md:px-48 lg:px-12 lg:mt-16 xl:px-24 xl:max-w-2xl">
-          <h2
-            className="text-center text-4xl text-indigo-900 font-display font-semibold lg:text-left xl:text-5xl
-                    xl:text-bold"
-          >
-            Log in
-          </h2>
-          <div className="mt-12">
-            <form>
-              <div>
-                <div className="text-sm font-bold text-gray-700 tracking-wide">
-                  Email Address
-                </div>
-                <input
-                  className="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
-                  type="email"
-                  placeholder="mike@gmail.com"
-                />
-              </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <div className="text-sm font-bold text-gray-700 tracking-wide">
-                    Password
-                  </div>
-                  <div>
-                    <Link
-                      to=""
-                      className="text-xs font-display font-semibold text-indigo-600 hover:text-indigo-800
-                                        cursor-pointer"
-                    >
-                      Forgot Password?
-                    </Link>
-                  </div>
-                </div>
-                <input
-                  className="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
-                  type="password"
-                  placeholder="Enter your password"
-                />
-              </div>
-              <div className="mt-10">
-                <button
-                  className="bg-indigo-500 text-gray-100 p-4 w-full rounded-full tracking-wide font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-700
-                                shadow-lg"
-                >
-                  Log In
-                </button>
-              </div>
-            </form>
-            <div className="my-10 text-sm font-display font-semibold text-gray-700 text-center">
-              Don't have an account ?{" "}
-              <Link
-                to="/signup"
-                className="cursor-pointer text-indigo-600 hover:text-indigo-800"
-              >
-                Sign up
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="hidden lg:flex items-center justify-center bg-indigo-100 flex-1 h-screen">
         <div className="max-w-xs transform duration-200 hover:scale-110 cursor-pointer">
           <svg
@@ -230,6 +160,91 @@ const Login01 = () => {
               fill="#2f2e41"
             />
           </svg>
+        </div>
+      </div>
+      <div className="lg:w-1/2 xl:w-full 2xl:mx-32 lg:my-auto xl:max-w-screen-sm">
+        <div className="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
+          <div className="cursor-pointer flex items-center">
+            <div>logo</div>
+            <div className="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">
+              blockify
+            </div>
+          </div>
+        </div>
+        <div className="mt-10 px-12 sm:px-24 md:px-48 lg:px-12 lg:mt-16 xl:px-24 xl:max-w-2xl">
+          <h2
+            className="text-center text-4xl text-indigo-900 font-display font-semibold lg:text-left xl:text-5xl
+                    xl:text-bold"
+          >
+            Log in
+          </h2>
+          <div className="mt-12">
+            <form>
+              <div>
+                <div className="text-sm font-bold text-gray-700 tracking-wide">
+                  Email Address
+                </div>
+                <input
+                  className="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+                  type="email"
+                  placeholder="user@gmail.com"
+                />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <div className="text-sm font-bold text-gray-700 tracking-wide">
+                    Password
+                  </div>
+                  <div>
+                    <Link
+                      to=""
+                      className="text-xs font-display font-semibold text-indigo-600 hover:text-indigo-800
+                                        cursor-pointer"
+                    >
+                      Forgot Password?
+                    </Link>
+                  </div>
+                </div>
+                <input
+                  className="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+                  type="password"
+                  placeholder="Enter your password"
+                />
+              </div>
+              <div className="mt-10">
+                <button
+                  className="bg-indigo-500 text-gray-100 p-4 w-full rounded-full tracking-wide font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-700
+                                shadow-lg"
+                >
+                  Log In
+                </button>
+              </div>
+            </form>
+            <div className="my-8 text-sm font-display font-semibold text-gray-700 text-center">
+              Don't have an account ?{" "}
+              <Link
+                to="/signup"
+                className="cursor-pointer text-indigo-600 hover:text-indigo-800"
+              >
+                Sign up
+              </Link>
+            </div>
+            <div class="divider">OR</div>
+            <button class="btn btn-outline btn-info w-full text-xl font-semibold">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 488 512"
+                class="w-7 h-7"
+                style={{ color: "#ea4335" }}
+              >
+                <path
+                  fill="currentColor"
+                  d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                />
+              </svg>
+              <span className="pl-3">Continue With Google</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
